@@ -151,6 +151,8 @@ Kondisi Awal
 ## CIDR-Tree
 
 Setelah mendapatkan penggabungan subnet, kita membuat tree yang terdapat pada topologi. Pada paling atas (parent) memiliki subnet dengan NID 10.4.0.0 dengan netmask /16.
+![Alt text](/imgs/CIDR_Tree.png)
+
 
 ## Pembagian IP
 

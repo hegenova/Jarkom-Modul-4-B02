@@ -38,7 +38,7 @@ Pada routing berikut adalah config yang berada pada router. Untuk langkah nya bi
 
 ## The Reference
 - 10.4.0.4/30 via 10.4.0.10
-10.4.0.64/26 via 10.4.0.10
+- 10.4.0.64/26 via 10.4.0.10
 10.4.8.0/22 via 10.4.0.10
 10.4.0.0/30 via 10.4.0.10
 10.4.2.0/24 via 10.4.0.10

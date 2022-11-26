@@ -20,6 +20,7 @@ Pada VLSM ini diturunkan sesuai dengan netmask atasnya sehingga ketika /20 akan 
 
 ## Pembagian IP
 Kemudian kita bagi dengan tetap menggunakan IP perfix 10.4 . hasil pembagian seperti berikut :
+![Alt text](/imgs/pembagian_ip.png)
 
 ## Config VSLM
 Menambah Ethernet / Port
@@ -27,14 +28,19 @@ Menambah Ethernet / Port
 Karena default hanya memiliki 2 port ethernet, maka kita bisa menambah port pada tab physical
 
 ## Config IP pada Node
+![Alt text](/imgs/config_ip.png)
 Contoh pada The Minister, kita menambahkan IP dan Subnet Mask sesuai dengan pembagian yang telah dilakukan, dengan IP ditambah 1 dari subnetnya. dan jangan lupa untuk di on kan pada port nya.
 
 Pada server & Client ditambahkan juga gateway yang mengarah ke router terdekat.
+
+![Alt text](/imgs/config_ip2.png)
 
 Lakukan berulang-ulang pada semua node.
 
 ## Routing
 Pada routing berikut adalah config yang berada pada router. Untuk langkah nya bisa masuk kedalam router, lalu menekan menu static dan menambahkan data yang diinginkan.
+
+![Alt text](/imgs/routing.png)
 
 ## The Reference
 - 10.4.0.4/30 via 10.4.0.10
@@ -100,6 +106,7 @@ Pada The Reference merupakan pusat Router jadi semua IP dari subnet diasiggn ke 
 Hasil dari message tiap node.
 
 # CIDR - GNS3
+![Alt text](/imgs/CIDR.png)
 Penggabungan Subnet
 
 Kita melakukan penggabungan subnet-subnet paling bawah dalam topologi yaitu dimulai dari subnet yang paling jauh dengan cloud/nat hingga hanya memiliki 1 subnet (induk).

@@ -37,7 +37,7 @@ Lakukan berulang-ulang pada semua node.
 Pada routing berikut adalah config yang berada pada router. Untuk langkah nya bisa masuk kedalam router, lalu menekan menu static dan menambahkan data yang diinginkan.
 
 ## The Reference
-10.4.0.4/30 via 10.4.0.10
+-10.4.0.4/30 via 10.4.0.10
 10.4.0.64/26 via 10.4.0.10
 10.4.8.0/22 via 10.4.0.10
 10.4.0.0/30 via 10.4.0.10
@@ -58,26 +58,26 @@ Pada The Reference merupakan pusat Router jadi semua IP dari subnet diasiggn ke 
 
 ## The Order
 
-0.0.0.0/0 via 10.4.0.9
+-0.0.0.0/0 via 10.4.0.9
 10.4.8.0/22 via 10.4.0.6
 10.4.0.0/30 via 10.4.0.6
 10.4.2.0/24 via 10.4.0.6
 
 ## The Minister
 
-0.0.0.0/0 via 10.4.0.5
+-0.0.0.0/0 via 10.4.0.5
 10.4.2.0/24 via 10.4.0.2
 
 ## The Daundless
-0.0.0.0/0 via 10.4.0.1
+-0.0.0.0/0 via 10.4.0.1
 
 0.0.0.0 berarti mengambil semua pesan dan diarahkan ke next hop.
 
 ## The Magical
-0.0.0.0/0 via 10.4.0.25
+-0.0.0.0/0 via 10.4.0.25
 
 ## The Instrument
-0.0.0.0/0 via 10.4.0.17
+-0.0.0.0/0 via 10.4.0.17
 10.4.0.20/30 via 10.4.0.22
 10.4.1.128/25 via 10.4.0.22
 10.4.1.0/25 via 10.4.0.22
@@ -87,14 +87,14 @@ Pada The Reference merupakan pusat Router jadi semua IP dari subnet diasiggn ke 
 10.4.0.28/30 via 10.4.0.14
 
 ## The Profound
-0.0.0.0/0 via 10.4.0.21
+-0.0.0.0/0 via 10.4.0.21
 
 ## The Firefist
-0.0.0.0/0 via 10.4.0.13
+-0.0.0.0/0 via 10.4.0.13
 10.4.0.28/30 via 10.4.3.3
 
 ## The Queen
-0.0.0.0/0 via 10.4.3.1
+-0.0.0.0/0 via 10.4.3.1
 
 ## Testing
 Hasil dari message tiap node.

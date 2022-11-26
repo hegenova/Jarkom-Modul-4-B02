@@ -13,7 +13,7 @@ Setelah melakukan pembagian subnet kita melakukan penjumlahan pada IP, sehingga 
 
 ## VSLM-Tree
 Setelah mendapatkan penjumlahan IP kita membuat tree yang terdapat pada topologi. Pada subnet memiliki NID 10.4.0.0 dengan netmask /20 sehingga pembagian IP berdasarkan NID dan Netmask yang di dapat.
-
+![Alt text](/imgs/VLSM_Tree.png)
 
 
 Pada VLSM ini diturunkan sesuai dengan netmask atasnya sehingga ketika /20 akan diturunkan menjadi /21, lakukan secara berulang-ulang sampai node semua terpenuhi.
